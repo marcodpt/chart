@@ -17,9 +17,8 @@ export default (e, params) => {
       pointStyle: 'circle'
     }
 
-    const el = e.querySelector('canvas')
     Chart.register(...registerables)
-    new Chart(el.getContext('2d'), {
+    new Chart(e.querySelector('canvas').getContext('2d'), {
       type: 'line',
       data: {
         labels: params.X,
@@ -32,7 +31,7 @@ export default (e, params) => {
         }]
       },
       options: {
-        responsive: false
+        responsive: true
       }
     })
   }, 50)
