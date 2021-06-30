@@ -1,7 +1,8 @@
 # chart
-> A hyperapp component based on chart.js
+> A chart [component](https://github.com/marcodpt/component/) based on
+[chart.js](https://www.chartjs.org/)
 
-[Live example](https://marcodpt.github.io/chart/)
+[Live demo](https://marcodpt.github.io/component/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmarcodpt%2Fchart%2Fsample.js)
 
 ## Usage
 ```js
@@ -28,3 +29,11 @@ chart(document.getElementById('complexChart'), {
 })
 
 ```
+
+## Params
+ - array `X`: labels of X axis
+ - array `Y`: items can be just axis Y values or a object with the following
+props:
+   - array `data`: axis Y values of this line
+   - string `borderColor`: color of line
+   - string `label`: the chart label of this line
