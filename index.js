@@ -1,13 +1,12 @@
-import {app} from 'https://cdn.jsdelivr.net/npm/hyperapp@2.0.18/index.min.js'
+import {
+  component
+} from 'https://cdn.jsdelivr.net/gh/marcodpt/component/index.js'
 import {Chart, registerables} from
   'https://cdn.jsdelivr.net/npm/chart.js@3.3.0/dist/chart.esm.js'
 import view from './views/bootstrap5.js'
 
 export default (e, params) => {
-  app({
-    view: view,
-    node: e
-  })
+  component(e, view)
   setTimeout(() => {
     const dataset = {
       label: 'Data',

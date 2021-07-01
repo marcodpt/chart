@@ -1,6 +1,4 @@
-import {h} from 'https://cdn.jsdelivr.net/npm/hyperapp@2.0.18/index.min.js'
-
-export default () =>
+export default (h, text) => () =>
   h('div', {
     class: 'w-100'
   }, [
