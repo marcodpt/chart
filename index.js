@@ -1,6 +1,5 @@
-import {
-  component
-} from 'https://cdn.jsdelivr.net/gh/marcodpt/component/index.js'
+import component from 
+  'https://cdn.jsdelivr.net/gh/marcodpt/component@0.0.1/index.js'
 import {Chart, registerables} from
   'https://cdn.jsdelivr.net/npm/chart.js@3.3.0/dist/chart.esm.js'
 import view from './views/bootstrap5.js'
