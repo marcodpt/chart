@@ -1,8 +1,7 @@
 # chart
-> A chart [element](https://github.com/marcodpt/element/) based on
-[chart.js](https://www.chartjs.org/)
+> A chart element based on [chart.js](https://www.chartjs.org/)
 
-[Live demo](https://marcodpt.github.io/element/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmarcodpt%2Fchart%2Fsamples.js)
+[Live demo](https://marcodpt.github.io/h/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmarcodpt%2Fchart%2Fsamples.js)
 
 ## Usage
 ```js
